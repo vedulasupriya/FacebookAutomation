@@ -45,4 +45,5 @@ public class AuthenticationSteps extends DriverFactory {
     public void checkIfUserHomeIsDisplayed() throws Throwable {
         new AuthenticationPage(driver).assertUser();
     }
-}
+
+    }
